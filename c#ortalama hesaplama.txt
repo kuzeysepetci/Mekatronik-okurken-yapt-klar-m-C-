@@ -1,0 +1,20 @@
+ Console.WriteLine("Vize Notunu giriniz: ");
+ double vize = Convert.ToDouble(Console.ReadLine());
+
+ Console.WriteLine("Final notunu giriniz: ");
+ double final = Convert.ToDouble(Console.ReadLine());
+
+ double ortalama = (vize * 0.4) + (final * 0.6);
+
+ Console.WriteLine("Ortalaman: " + ortalama);
+
+ if (ortalama >=45)
+ {
+     Console.WriteLine("Dersi geçtin");
+ }
+ else
+ {
+     Console.WriteLine("Dersten kaldın :) :");
+ }
+
+ Console.Read();
